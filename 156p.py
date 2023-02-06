@@ -1,0 +1,17 @@
+from tkinter import*
+from PIL import ImageTk,Image
+root=Tk()
+root.title("Endless Pokemon Game")
+root.geometry("600x400")
+root.configure(background="#3D93D5")
+img=ImageTk.PhotoImage(Image.open(""))
+player2=Label(root,text="Player 2 has",bg="lavender",fg="black",font=(15))
+player1.place(relx=0.1,rely=0.3,anchor=CENTER)
+player2=Label(root,text="Player 2 has",bg="lavender",fg="black",font=(15))
+player2.place(relx=0.9,rely=0.3,anchor=CENTER)
+p1s=Label(root,text="Player's 1 score is",bg="lightblue",fg="black",font=(12))
+p1s.place(relx=0.1,rely=0.4,anchor=CENTER)
+p2s=Label(root,text="Player's 2 score is",bg="lightblue",fg="black",font=(12))
+p1s.place(relx=0.9,rely=0.4,anchor=CENTER)
+rdv=Label(root,bg="lightyellow",fg="white",font=(17),highlightbackground="black")
+rdv.place(relx=0.5,rely=0.5,anchor=CENTER)
